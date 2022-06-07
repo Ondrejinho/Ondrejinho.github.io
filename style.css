@@ -258,8 +258,9 @@
 
 	footer{
 		background-color: rgb(192, 0, 90);
-		height: 120px;
+		height: 160px;
 		text-align: center;
+		width: 100%;
 	}
 
 	.icon-style{
@@ -378,8 +379,9 @@
 
 		  footer{
 		    background-color: rgb(192, 0, 90);
-		    height: 100px;
+		    height: 120px;
 		    text-align: center;
+
 	    }
 
 	    .icon-style{
