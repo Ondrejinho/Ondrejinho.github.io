@@ -24,6 +24,7 @@
 	  text-align: center;
 	  padding: 28px 30px;
 	  text-decoration: none;
+	  transition: color 0.5s;
 	}
 
 	.navbar a:hover{
@@ -249,6 +250,7 @@
 		background-color: rgb(192, 0, 90);
 		font-family: 'Antonio', sans-serif;
 		font-size: 20px;
+		transition: color 0.3s;
 	}
 
 	.blog a:hover{
