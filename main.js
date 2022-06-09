@@ -23,5 +23,5 @@ var skillbar5 = document.getElementById("skill5");
 		skillbar4.classList.add("skill4-ani")
 		skillbar5.classList.add("skill5-ani")
 		}
+		console.log(scrolled)
 	});
-	console.log(scrolled)
