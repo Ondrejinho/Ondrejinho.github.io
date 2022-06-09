@@ -1,8 +1,10 @@
 	*{
-		margin: 0;
+      scroll-behavior: smooth;
+	  margin: 0;
 	  padding: 0;
 	  box-sizing: border-box;
 	}
+
 	body{
 		background-color: black;
 		margin: 0;
@@ -85,6 +87,7 @@
 		color: rgb(192, 0, 90);
 		font-size: 180px;
 		font-family: 'Antonio', sans-serif;
+		margin-top: 40px;
 	}
 
 	p{
@@ -95,6 +98,7 @@
 
 	.aboutme p{
 		font-size: 29px;
+		margin-bottom: 15px;
 	}
 
 	.bar{
@@ -107,10 +111,9 @@
 		font-family: 'Antonio';
 		height: 25px;
 		background-color: rgb(192, 0, 90);
-		width: 70%;
+		width: 0px;
 		text-align: right;
 		padding: 5px;
-		animation: skill1 3s ease-out;
 		font-size: 12px;
 	}
 
@@ -118,10 +121,9 @@
 		font-family: 'Antonio';
 		height: 25px;
 		background-color: rgb(192, 0, 90);
-		width: 80%;
+		width: 0px;
 		text-align: right;
 		padding: 5px;
-		animation: skill2 3s ease-out;
 		font-size: 12px;
 	}
 
@@ -129,10 +131,9 @@
 		font-family: 'Antonio';
 		height: 25px;
 		background-color: rgb(192, 0, 90);
-		width: 60%;
+		width: 0px;
 		text-align: right;
 		padding: 5px;
-		animation: skill3 3s ease-out;
 		font-size: 12px;
 	}
 
@@ -140,10 +141,9 @@
 		font-family: 'Antonio';
 		height: 25px;
 		background-color: rgb(192, 0, 90);
-		width: 80%;
+		width: 0px;
 		text-align: right;
 		padding: 5px;
-		animation: skill4 3s ease-out;
 		font-size: 12px;
 	}
 
@@ -151,12 +151,32 @@
 		font-family: 'Antonio';
 		height: 25px;
 		background-color: rgb(192, 0, 90);
-		width: 40%;
+		width: 0px;
 		text-align: right;
 		padding: 5px;
-		animation: skill5 3s ease-out;
 		font-size: 12px;
 	}
+
+	.skill1-ani{
+        animation: skill1 3s ease-out forwards;
+	}
+
+	.skill2-ani{
+        animation: skill2 3s ease-out forwards;
+	}
+
+	.skill3-ani{
+        animation: skill3 3s ease-out forwards;
+	}
+
+	.skill4-ani{
+        animation: skill4 3s ease-out forwards;
+	}
+
+	.skill5-ani{
+        animation: skill5 3s ease-out forwards;
+	}
+
 	@keyframes skill1{
 		0% {width: 0%;}
 		100% {width: 70%;}
@@ -209,7 +229,6 @@
 	.gallery{
 	  width: 80%;
 	  margin: auto;
-	  transition: width 1s;
 	}
 
 	.card-wrapper{
@@ -228,8 +247,8 @@
 		width: 60%;
 		margin: 0 auto 0 auto;
 		list-style: none;
-	  padding: 30px;
-	  margin-bottom: 40px;
+	    padding: 30px;
+	    margin-bottom: 40px;
 	}
 
 	.blog img{
@@ -413,20 +432,19 @@
 	    }
 
 	@media (max-width: 336px){
-
-	    .navbar a{
-	      font-family: 'Kulim Park', sans-serif;
-	      float: right;
-	      display: block;
-	      color: black;
-	      text-align: center;
-	      padding: 6px 4px;
-	      text-decoration: none;
-		     font-size: 5px;
-	    }
-
-	    .container{
-		    width: 70%;
-		    margin: 10px auto;
-		    text-align: center;
+		.navbar a{
+			float: right;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 6px 4px;
+			text-decoration: none;
+			   font-size: 5px;
+		  }
+  
+		  .container{
+			  width: 70%;
+			  margin: 10px auto;
+			  text-align: center;
+		}
 	}
